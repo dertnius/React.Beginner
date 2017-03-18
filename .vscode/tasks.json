@@ -30,6 +30,13 @@
         "isShellCommand": true,
         "args": ["Hello World"],
         "showOutput": "always"
+        },
+        {
+        // "npm run start --loglevel info"
+        "taskName": "start",
+        "isBuildCommand": true,
+        "args": ["run","start", "--loglevel", "info"],
+        "showOutput": "always"
         }
     ]
 }
