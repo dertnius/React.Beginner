@@ -1,7 +1,7 @@
 import {Alert} from 'react-bootstrap'
 import * as React from 'react'
 
-const alertSearchBar : React.StatelessComponent<React.HTMLProps<JSX.Element>> = (props: React.HTMLProps<JSX.Element> & {
+const AlertSearchBar : React.StatelessComponent<React.HTMLProps<JSX.Element>> = (props: React.HTMLProps<JSX.Element> & {
 type?:string
 }) => {
     return (
@@ -12,4 +12,4 @@ type?:string
 }
 
 
-export { alertSearchBar }
+export { AlertSearchBar }
